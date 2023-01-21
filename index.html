@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+        <title>AR-VR</title>
+        <style></style>
+        <script></script>
+    </head>
+        <body>
+            <a-scene>
+                <a-assets>
+                    <img id="img1" src="eso0932a.jpg">
+                    <img id="mars" src="mars.jpg">
+                    <img id="earth" src="earth.jpg">
+                    <img id="venus" src="venusmap.jpg">
+                    <img id="mercury" src="download.jpg">
+                    <img id="jupiter" src="jupiter.jpg">
+                    <img id="pluto" src="plutomap1k.jpg">
+                    <img id="neptune" src="neptune.jpg">
+                    <img id="saturn" src="saturnkmap.jpg">
+                    <img id="uranus" src="uranusmap.jpg">
+                    <img id="sun" src="sun.jpg">
+                    </a-assets>
+
+            <a-sky src="#img 1" id="image-360"></a-sky>
+
+            <a-sphere position="01.25-6"
+            radius = "1.4"
+            src="#earth"rotation="000"
+            roughness="0.65">
+            <a-animation attribute="rotation"to="0360 0"
+            dur="5000"
+            repeal="indefinite"
+            easing="linear"
+            direction="normal">
+        </a-animation>
+      </a-sphere>
+
+    </a-scene>
+  </body>
+</html>
+
+
+                    
+                        
